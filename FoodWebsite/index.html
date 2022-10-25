@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Portfolio Website</title>
+    <!-- ICONS CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Custom STYLESHEET -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/media.css">
+</head>
+<body>
+    <!-- Start of NAV-->
+    <nav>
+        <div class="container nav__container">
+            <ul class="nav__socials">
+                <li><a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+            </ul>
+            <ul class="nav__links">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li>
+                    <div class="nav__logo">
+                        <a href="index.html"><img src="./res/images/logo.png" alt="Logo" /></a>
+                    </div>
+                </li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav__auth-btns">
+                <button class="nav__auth-btn" id="nav__auth-login">Sign Up</button>
+                <button class="nav__auth-btn" id="nav__auth-signup">Log In</button>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- End of NAV-->
+    <!-- Start of HEADER-->
+    <header>
+        <div class="container header__container">
+            <div class="header__left blogs swiper mySwiper">
+                <div class="header__blogs swiper-wrapper">
+                    <div class="header__blog swiper-slide">
+                        <div class="header__blog__preview">
+                            <a href="#" class="header__blog-link"><h1>The healthiest way to start your day</h1></a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat deleniti accusamus est non eos quia, atque id, quod quae perferendis. Quis explicabo dolores ut, ab amet corporis error itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et corporis mollitia corrupti sapiente tempore tenetur reiciendis iste excepturi debitis! Architecto illum porro ex. Illo facilis modi similique soluta ad.</p>
+                        </div>
+                        <a href="#" class="header__blog-link">Read more...</a>
+                        <a class="header__author-link" href="authors/2">
+                            <div class="author-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                <div class="author-info">
+                                    <strong>Thomas</strong>
+                                    <p>May 23, 2021</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header__blog swiper-slide">
+                        <div class="header__blog__preview">
+                            <a href="#" class="header__blog-link"><h1>Blueberry specialties for everyone</h1></a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat deleniti accusamus est non eos quia, atque id, quod quae perferendis. Quis explicabo dolores ut, ab amet corporis error itaque!</p>
+                        </div>
+                        <a href="#" class="header__blog-link">Read more...</a>
+                        <a class="header__author-link" href="authors/3">
+                            <div class="author-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                <div class="author-info">
+                                    <strong>Lucy Smith</strong>
+                                    <p>June 20, 2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header__blog swiper-slide">
+                        <div class="header__blog__preview">
+                            <a href="#" class="header__blog-link"><h1>Blueberry specialties for everyone</h1></a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat deleniti accusamus est non eos quia, atque id, quod quae perferendis. Quis explicabo dolores ut, ab amet corporis error itaque!</p>
+                        </div>
+                        <a href="#" class="header__blog-link">Read more...</a>
+                        <a class="header__author-link" href="authors/3">
+                            <div class="author-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                <div class="author-info">
+                                    <strong>Lucy Smith</strong>
+                                    <p>June 20, 2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="header__right">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ====================== Banner ======================= -->
+        <section id="banner">
+            <div class="container banner__container">
+                <p>Get My <span>Free</span> Cookbook Today!</p>
+                <form class="banner__sub-form" >
+                    <input type="text" class="banner__input" placeholder="Your Name*" required/>
+                    <input type="text" class="banner__input" placeholder="Your E-mail*" required/>
+                    <input type="submit"class="banner__sbmt" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <!-- ================== END OF BANNER ==================== -->
+        <!-- ====================== Recipes ======================= -->
+        <section id="recipes">
+            <div class="container recipes__container">
+                <h1 class="recipes__title">Recipes</h1>
+                <div class="recipes__posts">
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-1.jpg" alt="Recipes. 1">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>60 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>MEDIUM</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Tasty croissant and tea for perfect breakfast
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-2-1205x1536.jpg" alt="Recipes. 2">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>5 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Overnight oats with figs and honey recipe 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-3-1205x1536.jpg" alt="Recipes. 3">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>40 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Rustic banana oatmeal and berry pancakes
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-6-1024x696.jpg" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-4-1-1205x1536.jpg" alt="Recipes. 4">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>10 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Berries and banana smoothie for a snack 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-5-1024x720.jpg" alt="Recipes. 5">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>10 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Berries and banana smoothie for a snack 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-6-768x522.jpg" alt="Recipes. 6">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>60 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>MEDIUM</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Tasty croissant and tea for perfect breakfast
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-7-768x493.jpg" alt="Recipes. 7">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>5 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Overnight oats with figs and honey recipe 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-9-768x522.jpg" alt="Recipes. 9">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>10 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Berries and banana smoothie for a snack 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-9-768x522.jpg" alt="Recipes. 9">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>10 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Berries and banana smoothie for a snack 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="recipes__post">
+                        <div class="recipe__content">
+                            <div class="recipes__post__illustration">
+                                <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-10-768x522.jpg" alt="Recipes. 10">
+                            </div>
+                            <div class="recipe__description">
+                                <div class="recipes__post__info">
+                                    <div class="recipe__duration">
+                                        <i class="uil uil-clock"></i>
+                                        <p>10 MINUTES</p>
+                                    </div>
+                                    <div class="recipe__complexity">
+                                        <i class="uil uil-thumbs-up"></i>
+                                        <p>SUPER EASY</p>
+                                    </div>
+                                </div>
+                                <div class="recipes__post__title">
+                                    Berries and banana smoothie for a snack 
+                                </div>
+                                <a class="recipe__author-link" href="authors/3">
+                                    <div class="author-container">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU" alt="profile image">
+                                        <div class="author-info">
+                                            <strong>Lucy Smith</strong>
+                                            <p>June 20, 2022</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- ====================== END OF GALLERY ======================= -->
+    </main>
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__content">
+                <div class="footer__col" id="footer__company-links">
+                    <h3 class="title">Brand</h3>
+                    <p class="personal-data">Adriana Alt, Warsaw</p>
+                    <div class="contact-links">
+                        <a class="contact-link" href="#"><i class="uil uil-facebook"></i></a>
+                        <a class="contact-link" href="#"><i class="uil uil-instagram"></i></a>
+                        <a class="contact-link" href="#"><i class="uil uil-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col" id="footer__info">
+                    <h3 class="title">Policy</h3>
+                    <ul class="footer__info__items">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Receipts</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col" id="footer__contact__info">
+                    <h3 class="title">Get In Touch</h3>
+                    <ul class="footer__items">
+                        <li>+1 123 4567 8901</li>
+                        <li><a href="#">adrieAlt@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col" id="footer__app-links">
+                    <h3 class="title">Discover Our App</h3>
+                    <ul class="footer__items">
+                        <li>
+                            <div class="footer__btn">
+                                <a class="footer__btn-link" href="#">
+                                    <i class="uil uil-google-play"></i>
+                                    <div>
+                                        GET IT ON </br>
+                                        <span>GooglePlay</span>
+                                    </div>
+                                </a>
+                            </div>
+                        <li>
+                            <div class="footer__btn">
+                                <a class="footer__btn-link" href="#">
+                                    <i class="uil uil-apple"></i>
+                                    <div>
+                                        Available on the </br>
+                                        <span>AppStore</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    Ⓒ 2022, AdrieAlt, adrieAlt. ALL RIGHT RESERVED.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

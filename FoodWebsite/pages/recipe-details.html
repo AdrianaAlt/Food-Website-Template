@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Portfolio Website</title>
+    <!-- ICONS CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Custom STYLESHEET -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+<body>
+    <!-- Start of NAV-->
+    <nav>
+        <div class="container nav__container">
+            <ul class="nav__socials">
+                <li><a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+            </ul>
+            <ul class="nav__links">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#recipes" class="active">Recipes</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li>
+                    <div class="nav__logo">
+                        <a href="index.html"><img src="../res/images/logo.png" alt="Logo" /></a>
+                    </div>
+                </li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav__auth-btns">
+                <button class="nav__auth-btn" id="nav__auth-login">Sign Up</button>
+                <button class="nav__auth-btn" id="nav__auth-signup">Log In</button>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- End of NAV-->
+    <main>
+        <!-- Blog section-->
+        <section id="blog">
+            <div class="container blog__container">
+                <div class="blog__header">
+                    <div class="blog__title">
+                        <h1 class="title">Tasty croissant and tea for perfect breakfast</h1>
+                    </div>
+                    <div class="blog__links__container">
+                        <div class="blog__author">
+                            <a class="blog__author-link" href="authors/3">
+                                <div class="author-container">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU"
+                                        alt="profile image">
+                                    <div class="author-info">
+                                        <strong>Lucy Smith</strong>
+                                        <p>June 20, 2022</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__networks">
+                            <p>SHARE:</p>
+                            <div class="blog__links">
+                                <div class="blog__link">
+                                    <a href="#"><i class="uil uil-facebook-f">Facebook</i></a>
+                                </div>
+                                <div class="blog__link">
+                                    <a href="#"><i class="uil uil-twitter">Twitter</i></a>
+                                </div>
+                                <div class="blog__link">
+                                    <a href="#"><i class="uil uil-linkedin">Linkedin</i></a>
+                                </div>
+                                <div class="blog__link">
+                                    <a href="#"><i class="uil uil-instagram-alt">Instagram</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__rating">
+                    <div class="blog__rating__stars">
+                        <i class="uim uim-star"></i>
+                        <i class="uil uil-star"></i>
+                        <i class="uil uil-star"></i>
+                        <i class="uil uil-star"></i>
+                        <i class="uil uil-star"></i>
+                    </div>
+                    <div class="blog__rating__info">
+                        <span class="blog__stars__count">1</span>
+                        from
+                        <span class="blog__reviews__count">1</span>
+                        Review(s)
+                    </div>
+                </div>
+                <div class="blog__content">
+                    <div class="blog__image main-image">
+                        <img src="https://easymeals.qodeinteractive.com/wp-content/uploads/2020/05/h4-img-1-768x979.jpg"
+                            alt="Recipe. Main illustration">
+                    </div>
+                    <div class="blog__content__info">
+                        <div class="recipe__duration">
+                            <i class="uil uil-clock"></i>
+                            <p>10 MINUTES</p>
+                        </div>
+                        <div class="recipe__complexity">
+                            <i class="uil uil-thumbs-up"></i>
+                            <p>SUPER EASY</p>
+                        </div>
+                        <div class="recipe__type">
+                            <i class="uil uil-restaurant"></i>
+                            <p>SERVES 1</p>
+                        </div>
+                    </div>
+                    <div class="blog__content__description">
+                        <p>
+                            Nam aliquam sem et tortor consequat. Odio tempor orci dapibus ultrices in iaculis. Vitae
+                            proin
+                            sagittis nisl rhoncus mattis rhoncus. Sed risus ultricies tristique nulla aliquet. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborumd ut perspiciatis unde omnis iste voluptatem accusantium doloremque laudantium,
+                            aperiam,
+                            eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__ingredients">
+                <div class="header">
+                    <h1>Ingredients</h1>
+                </div>
+                <div class="servings__count">
+                    <p>Adjust Servings</p>
+                    <span class="count">1</span>
+                </div>
+                <ul class="ingredients__list">
+                    <li>8 pisces</li>
+                    <li>800g Ground Beef</li>
+                    <li>16 Eggs batches flax eggs* (2 flax eggs = 2 Tbsp flaxseed meal / 14 g + 5 Tbsp / 75 ml water)
+                    </li>
+                    <li>1 ½ cups peeled and chopped golden potato or sweet potato (large bite-size pieces)</li>
+                    <li>0.68 cup chopped walnuts or pecans (or sub other nut or seed of choice)</li>
+                </ul>
+            </div>
+            <div class="blog__nutritional-info">
+                <div class="nutritional-info__header">
+                    <h1>Nutritional Information</h1>
+                </div>
+                <div class="fat"><span>200g</span>Fat</div>
+                <div class="protein"><span>100g</span>Protein</div>
+                <div class="sugars"><span>146g</span>Sugars</div>
+                <div class="calories"><span>436</span>Calories</div>
+                <div class="carbs"><span>24g</span>Carbs</div>
+                <div class="trans-fat"><span>137g</span>Trans fat</div>
+            </div>
+            <div class="blog__directions">
+                <ol class="directions__list">
+                    <li>
+                        <div class="directions__step">
+                            <div class="step__content">
+                                <h1>Make the barbecue sauce (or substitute 3/4 to 1 cup bottled sauce):</h1>
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                    sed
+                                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                    quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <div class="step__complete__toggle">
+                                <input type="checkbox" class="toggle" /> Mark as complete
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="directions__step">
+                            <div class="step__content">
+                                <h1>Make the barbecue sauce (or substitute 3/4 to 1 cup bottled sauce):</h1>
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                    sed
+                                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                    quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <div class="step__complete__toggle">
+                                <input type="checkbox" class="toggle" /> Mark as complete
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="directions__step">
+                            <div class="step__content">
+                                <h1>Make the barbecue sauce (or substitute 3/4 to 1 cup bottled sauce):</h1>
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                    sed
+                                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                    quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <div class="step__complete__toggle">
+                                <input type="checkbox" class="toggle" /> Mark as complete
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="directions__step">
+                            <div class="step__content">
+                                <h1>Make the barbecue sauce (or substitute 3/4 to 1 cup bottled sauce):</h1>
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                    sed
+                                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                    quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <div class="step__complete__toggle">
+                                <input type="checkbox" class="toggle" /> Mark as complete
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="blog__notes">
+                <div class="header">
+                    <h1>Notes</h1>
+                </div>
+                <ul class="notes__list">
+                    <li>
+                        Nutrition info is a rough estimate based on the ingredients. Note that values may vary from case
+                        to case.
+                    </li>
+                    <li>
+                        As with all recipes, there is a number of ways you can get things done. If you believe that some
+                        of the instructions can be improved, or have a good alternative solution, feel free to leave a
+                        comment.
+                    </li>
+                </ul>
+            </div>
+            <div class="blog__reviews">
+                <div class="reviews-container">
+                    <div class="header"><h1><span class="count">1</span> Comment</h1></div>
+                    <div class="reviews-list">
+                        <div class="blog__review">
+                            <div class="review__header">
+                                <div class="left__part">
+                                    <a class="review__author-link" href="authors/3">
+                                        <div class="author-container">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk9IxBcx1t7ZNC843iSNxNSvilxJQitpwbTSwsbT-iU19EurAuY5zA77UMNaVHYb24hQ&usqp=CAU"
+                                                alt="profile image">
+                                            <div class="author-info">
+                                                <strong class="name">Lucy Smith</strong>
+                                                <p class="date">June 20, 2022</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="right__part">
+                                    <div class="review__rating">
+                                        Rating
+                                        <i class="uim uim-star"></i>
+                                        <i class="uil uil-star"></i>
+                                        <i class="uil uil-star"></i>
+                                        <i class="uil uil-star"></i>
+                                        <i class="uil uil-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__content">
+                                <p>
+                                    Eu tincidunt tortor aliquam nulla. Sapien faucibus et molestie ac feugiat sed lectus
+                                    vestibulum.
+                                    Quam pellentesque nec nam aliquam sem et tortor consequat. Et tortor consequat id porta nibh
+                                    venenatis cras sed felis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review__form">
+                    <h1>Leave a reply</h1>
+                    <form>
+                        Rating
+                        <div class="rating__field">
+                            <i class="uim uim-star"></i>
+                            <i class="uim uim-star"></i>
+                            <i class="uim uim-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                        </div>
+                        <textarea placeholder="Your comment*" required></textarea>
+                        <input type="text" placeholder="Your Name*" required>
+                        <input type="text" placeholder="Your E-mail" required>
+                        <input type="submit" value="POST COMMENT">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Unicons Monochrome ICONS-->
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js" />
+    </body>
+</html>
